@@ -6,7 +6,7 @@ import BannerImg from '../../assets/products/banner.png';
 
 const Banner = () => {
   return (
-    <div className='container mx-auto flex mt-15 justify-between '>
+    <div className='container mx-auto flex flex-col lg:flex-row gap-10 items-center justify-between'>
       <div className='my-auto'>
          <div className='inline-flex gap-2 items-center bg-purple-200 px-3 py-1 rounded-md  '>      
           <img className='w-3 h-3' src={Rectangle} alt="" />
