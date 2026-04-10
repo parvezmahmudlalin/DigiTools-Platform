@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Basic tools for beginners to create simple resumes.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic editing tools",
+      "Download as PDF"
+    ],
+    "icon": "🟢"
+  },
+  {
+    "id": 2,
+    "name": "Basic Plan",
+    "description": "Essential features for building professional resumes.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "50+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Email support"
+    ],
+    "icon": "🔵"
+  },
+  {
+    "id": 3,
+    "name": "Pro Plan",
+    "description": "Advanced tools for job seekers to stand out.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Custom sections",
+      "Priority support"
+    ],
+    "icon": "🟣"
+  },
+  {
+    "id": 4,
+    "name": "Premium Plan",
+    "description": "Full-featured plan with premium templates and support.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "200+ templates",
+      "AI suggestions",
+      "Unlimited downloads",
+      "Premium support"
+    ],
+    "icon": "🟡"
+  },
+  {
+    "id": 5,
+    "name": "Business Plan",
+    "description": "Designed for teams and organizations.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Team collaboration",
+      "Admin dashboard",
+      "Custom branding",
+      "Analytics tools"
+    ],
+    "icon": "🏢"
+  },
+  {
+    "id": 6,
+    "name": "Student Plan",
+    "description": "Affordable plan for students and fresh graduates.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "30+ templates",
+      "Basic ATS check",
+      "Download options",
+      "Email support"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Plan",
+    "description": "Perfect for freelancers to showcase portfolios.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Portfolio templates",
+      "Custom links",
+      "Client sharing",
+      "Export to PDF"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 8,
+    "name": "Enterprise Plan",
+    "description": "Complete solution for large-scale companies.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited users",
+      "Advanced analytics",
+      "Dedicated manager",
+      "Custom integrations"
+    ],
+    "icon": "🏆"
+  }
+]
