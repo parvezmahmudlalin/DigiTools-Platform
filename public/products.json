@@ -12,7 +12,11 @@
       "Basic editing tools",
       "Download as PDF"
     ],
-    "icon": "🟢"
+    "icon": "📄",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 2,
@@ -28,7 +32,11 @@
       "Export to PDF",
       "Email support"
     ],
-    "icon": "🔵"
+    "icon": "🔵",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 3,
@@ -44,7 +52,11 @@
       "Custom sections",
       "Priority support"
     ],
-    "icon": "🟣"
+    "icon": "🟣",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 4,
@@ -60,7 +72,11 @@
       "Unlimited downloads",
       "Premium support"
     ],
-    "icon": "🟡"
+    "icon": "🟡",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 5,
@@ -76,7 +92,11 @@
       "Custom branding",
       "Analytics tools"
     ],
-    "icon": "🏢"
+    "icon": "🏢",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 6,
@@ -92,7 +112,11 @@
       "Download options",
       "Email support"
     ],
-    "icon": "🎓"
+    "icon": "🎓",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 7,
@@ -108,7 +132,11 @@
       "Client sharing",
       "Export to PDF"
     ],
-    "icon": "💼"
+    "icon": "💼",
+    "buttonText": "Get Started",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   },
   {
     "id": 8,
@@ -124,6 +152,10 @@
       "Dedicated manager",
       "Custom integrations"
     ],
-    "icon": "🏆"
+    "icon": "🏆",
+    "buttonText": "Contact Sales",
+    "buttonColor": "purple",
+    "style": "premium-card",
+    "badgeColor": "light-green"
   }
 ]
