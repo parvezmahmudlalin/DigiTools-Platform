@@ -36,6 +36,7 @@ const Navbar = () => {
   <div className="navbar-end ">
     <div className='flex gap-4 items-center' >
 
+      
       <p ><CiShoppingCart /></p>
       <button className='btn '>Login</button>
 
