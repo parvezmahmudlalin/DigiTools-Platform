@@ -20,7 +20,7 @@ Explore Products
 </h1>
 
 <div className='flex mt-4 gap-4 '>
-        <button className='btn p-5 rounded-full bg-purple-400'>Explore Products</button>
+        <button className='btn p-5 rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>Explore Products</button>
         <button className='btn p-5 rounded-full'> <img src={Play} alt="" /> Watch Demo</button>
       </div>
       </div>

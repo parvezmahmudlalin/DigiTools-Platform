@@ -21,7 +21,7 @@ const Navbar = () => {
       </ul>
     </div>
    <div>
-    <h2 className='text-3xl font-bold text-purple-600'>DigiTools</h2>
+    <h2 className='text-3xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>DigiTools</h2>
    </div>
   </div>
   <div className="navbar-center md:flex hidden">
@@ -39,7 +39,7 @@ const Navbar = () => {
       <p ><CiShoppingCart /></p>
       <button className='btn '>Login</button>
 
-      <button className='font-bold btn bg-purple-400 rounded-full'> Get Started</button>
+      <button className='font-bold btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'> Get Started</button>
       
     </div>
   </div>
