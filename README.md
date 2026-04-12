@@ -1,16 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Task-01: Name of Your Project--
+Ans: My project name is DigiTools-Platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Task-02: A little Description-- 
+Ans: his is a modern web application where users can explore and purchase digital products. Users can browse different tools, add them to the cart, and manage their selected items easily. The interface is clean, responsive, and user-friendly.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Task-03: Technology that you use--
+Ans: React.js , Tailwind CSS , DaisyUI, JavaScript and ES6.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Task-04: 3 Features about your project.
+Ans:
+1.Product Listing System
+Users can view multiple digital products with name, price, and details in a clean grid layout.
+
+2.Add to Cart Functionality
+Users can easily add products to the cart and view them in a separate cart section.
+
+3.Remove & Total Calculation
+Users can remove items from the cart and see the total price update dynamically.
