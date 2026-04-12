@@ -18,8 +18,8 @@ import Cart from '../ui/Cart';
              {/* name of each tab group should be unique */}
         <div className="tabs tabs-box items-center justify-center bg-transparent mt-6 gap-6">
   
-          <input type="radio" name="my_tabs_1" className={`tab rounded-full w-40 bg-linear-to-r from-[#4F39F6] to-[#9514FA]`} aria-label="Products" defaultChecked onClick={() => setActiveTab("Products")}/>
-          <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label={`Cart(${carts.length})`} 
+          <input type="radio" name="my_tabs_1" className={`tab rounded-full w-40 ${activeTab === "Products"? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white":"text-black bg-base-200"}`} aria-label="Products" defaultChecked onClick={() => setActiveTab("Products")}/>
+          <input type="radio" name="my_tabs_1" className={`tab rounded-full w-40 ${activeTab === "Cart"? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white":"text-black bg-base-200"}`} aria-label={`Cart(${carts.length})`} 
           onClick={() => setActiveTab("Cart")}/>
         </div>
       </div>

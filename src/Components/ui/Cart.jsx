@@ -29,7 +29,7 @@ import { toast } from "react-toastify";
           {carts.map((cart, index) => (
             <div 
               key={index}
-              className="bg-base-300 border rounded-lg mt-4 mb-8 p-5"
+              className="bg-[#f9fafc] border border-[#f9fafc] rounded-lg mt-4 mb-8 p-5"
             >
               <div className="flex justify-between items-center">
                 <div className="flex gap-5 items-center">
