@@ -1,7 +1,19 @@
+import { toast } from "react-toastify";
 
 
   const Cart = ({ carts, setCarts }) => {
 
+    const handlePayment = () => {
+      setCarts([]);
+      toast.success("Payment Successful")
+    }
+
+    const handleRemove = (item) => {
+      const filteredArray = carts.filter((c) => c.id !== item.id);
+      setCarts(filteredArray);
+
+      toast.success("Product deleted")
+    }
 
   return (
     <div className="border border-zinc-200 p-6 rounded-lg mb-40">
@@ -32,10 +44,7 @@
 
                 <button 
                   className="btn btn-ghost rounded-full text-red-500 hover:text-red-600"
-                  onClick={() => {
-                    const updatedCart = carts.filter((_, i) => i !== index);
-                    setCarts(updatedCart);
-                  }}
+                  onClick={() => handleRemove(cart)}
                 >
                   Remove
                 </button>
@@ -50,7 +59,7 @@
               <span>${carts.reduce((sum, item) => sum + item.price, 0)}</span>
             </div>
             
-            <button className="btn btn-primary w-full py-3 text-lg rounded-full">
+            <button onClick={handlePayment} className="btn btn-primary w-full py-3 text-lg rounded-full">
               Proceed To Checkout
             </button>
           </div>

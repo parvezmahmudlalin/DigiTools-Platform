@@ -1,12 +1,24 @@
 import React, { useState } from 'react';
 import { FcCheckmark } from "react-icons/fc";
+import { toast } from 'react-toastify';
+
 const ProductCart = ({product ,carts,setCarts}) => {
    const [isBuyNow, setIsBuyNow] = useState(false);
 
    const handleBuyButton = () => {
     setIsBuyNow(true);
+    const isFound = carts.find((item) => item.id === product.id);
+
+    if(isFound) {
+      toast.error("Product already added in Cart")
+      return;
+    }
+
+
+
+
     setCarts ([...carts, product]);
-    
+    toast.success("Product added to Cart")
    }
   return (
      <div key={product.id} className='border border-[#f1f1f1] gap-7 p-5 rounded-xl flex flex-col h-full'>
