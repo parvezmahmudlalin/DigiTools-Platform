@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Steps from './Components/Steps/Steps';
 import Pricing from './Components/Pricing/Pricing';
 import Products from './Components/Products/Products';
+import Ready from './Components/Ready/Ready';
 
 
 
@@ -42,6 +43,7 @@ const App = () => {
 
       <Steps/>
       <Pricing/>
+      <Ready/>
       <Footer/>
       
     </div>
