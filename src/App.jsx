@@ -1,6 +1,6 @@
 
 import './App.css'
-import React, { Suspense, } from 'react';
+import React, { Suspense, useState, } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Banner from './Components/Banner/Banner';
 import Badge from './Components/Badge/Badge';
@@ -13,7 +13,7 @@ import Products from './Components/Products/Products';
 
 
 const fetchProducts = async() => {
-  const res = await fetch('/public/products.json');
+  const res = await fetch('/products.json');
   const data = res.json();
   return data
 };
@@ -22,14 +22,14 @@ const fetchProducts = async() => {
 
 const App = () => {
   const productPromise =fetchProducts();
- 
+   const [carts, setCarts] = useState([]);
   return (
     <div>
-      <Navbar />
+      <Navbar carts = {carts}/>
       <Banner/>
       <Badge/>
       <Suspense fallback = {<span className="loading loading-dots loading-xl"></span>}>
-      <Products productPromise ={productPromise}  />
+      <Products productPromise ={productPromise} carts = {carts} setCarts={setCarts}  />
 
       </Suspense>
 

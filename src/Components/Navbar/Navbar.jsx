@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { CiShoppingCart } from "react-icons/ci";
-const Navbar = () => {
+const Navbar = ({carts}) => {
   return (
 
    <div className="navbar  container mx-auto">
@@ -33,17 +33,20 @@ const Navbar = () => {
       <li className='font-semibold'><a href="">FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end ">
-    <div className='flex gap-4 items-center' >
+  <div className="navbar-end flex gap-3 relative lg:pr-33">
+          {carts.length === 0 ? (
+            ""
+          ) : (
+            <span className="text-white bg-red-500 px-2 py-0.5 rounded-full text-[10px] absolute z-1 left-13 lg:left-59 -top-0.5 ">
+              {carts.length}
+            </span>
+          )}
 
-      
-      <p ><CiShoppingCart /></p>
-      <button className='btn '>Login</button>
-
-      <button className='font-bold btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white p-5'> Get Started</button>
-      
-    </div>
-  </div>
+          <a className="flex justify-center items-center gap-3">
+           <CiShoppingCart /> Login
+          </a>
+          <a className="btn btn-primary rounded-4xl">Get Started</a>
+        </div>
 </div>
   );
 };

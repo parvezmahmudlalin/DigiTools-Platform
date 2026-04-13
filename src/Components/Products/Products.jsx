@@ -2,11 +2,11 @@ import React, {  use, useState  } from 'react';
 import ProductCart from '../ProductCart/ProductCart';
 import Cart from '../ui/Cart';
 
-  const Products = ({productPromise}) => {
+  const Products = ({productPromise , carts ,setCarts}) => {
 
       const products = use (productPromise);
       const [activeTab,setActiveTab] = useState("Products");
-      const [carts, setCarts] = useState([]);
+     
   
  
   return (
