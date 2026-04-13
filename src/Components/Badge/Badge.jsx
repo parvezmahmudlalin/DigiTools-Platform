@@ -6,7 +6,7 @@ const Badge = () => {
    
         <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-10">
       
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 text-center">
+      <div className="container mx-auto px-2 grid grid-cols-1 md:grid-cols-3 text-center">
         
       
         <div className="py-6 relative">

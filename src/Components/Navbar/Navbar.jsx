@@ -45,7 +45,7 @@ const Navbar = ({carts}) => {
           <a className="flex justify-center items-center gap-3">
            <CiShoppingCart /> Login
           </a>
-          <a className="btn btn-primary rounded-4xl">Get Started</a>
+          <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-4xl">Get Started</a>
         </div>
 </div>
   );

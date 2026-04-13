@@ -10,7 +10,7 @@ import Cart from '../ui/Cart';
   
  
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-2'>
       <div className='text-center mt-30 '>
              <h1 className='font-extrabold text-5xl'>Premium Digital Tools</h1>
              <p className='text-[#627382] mt-5 '>Choose from our curated collection of premium digital products designed <br/>to boost your productivity and creativity.</p>
@@ -23,7 +23,7 @@ import Cart from '../ui/Cart';
           onClick={() => setActiveTab("Cart")}/>
         </div>
       </div>
-      <div className='container mt-10 border border-[#FFFFFF] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10 '>
+      <div className='container mt-10 border border-[#FFFFFF] mx-auto  grid md:grid-cols-2 lg:grid-cols-3 gap-10 '>
        { activeTab === "Products" &&
         products.map((product) => (
          <ProductCart key={product.id} product = {product} carts={carts} setCarts = {setCarts}/>
